@@ -1,0 +1,16 @@
+extends template/main 
+
+block variables
+  - var title = 'Surf';
+  - var pageClass = 'index-page';
+
+block content
+  include modules/surf/surf
+  include modules/footer/footer
+  //- include pages/index/popular-categories
+  //- include pages/index/advantages
+  //- include pages/index/actions
+  //- include pages/index/discount
+  //- include modules/sales-leaders 
+block script 
+  // script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript")
